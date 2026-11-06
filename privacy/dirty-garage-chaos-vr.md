@@ -15,12 +15,14 @@ Contact for all privacy questions and requests: **cemdemirtas57@gmail.com**
 
 ## 2. What data the app processes
 
-### 2.1 Ownership check with Meta Horizon
+### 2.1 Ownership check and age group from Meta Horizon
 
-When the game starts, it asks the Meta Horizon platform (Meta Platform SDK) whether the Meta account signed in on the
-headset owns the game. The app only receives a yes/no answer; if the answer is no, the game closes. The app does **not**
-request or receive your user ID, name, user name, profile photo, e-mail address, age group, friends or followers list,
-avatar, location, voice, camera images or payment information.
+When the game starts, it asks the Meta Horizon platform (Meta Platform SDK) two things: whether the Meta account signed in
+on the headset owns the game, and which age group that account belongs to (child 10–12, teen 13–17, adult 18+ or unknown).
+The app only receives a yes/no answer and the age group; if the ownership answer is no, the game closes. The age group is
+asked because the game's store listing is open to players of mixed ages, and Meta requires such apps to use the Meta
+Horizon age group API. The app does **not** request or receive your user ID, name, user name, profile photo, e-mail
+address, date of birth, friends or followers list, avatar, location, voice, camera images or payment information.
 
 ### 2.2 Data stored on your headset
 
@@ -39,6 +41,10 @@ not contain your name or your Meta account, and we do not receive it.
 ## 3. How the data is used
 
 - The ownership check is used only to make sure the game runs for people who bought it (a Meta Horizon Store requirement).
+- The age group is used only to meet Meta's requirements for apps open to players under 13. Every age group gets the same
+  game: it has no chat, no contact with other people, no ads, no external links and no purchases inside the game, so
+  nothing has to be switched off for younger players. The age group is not stored, not sent anywhere and not used for any
+  other purpose.
 - The save file is used only to let you continue your game where you left it.
 
 We do not use any data for advertising, profiling, tracking or analytics, and we do not sell or rent data.
@@ -51,13 +57,16 @@ is nothing on our side to disclose.
 
 ## 5. Children
 
-Dirty Garage Chaos VR is intended for teens and adults (13+). We do not knowingly collect personal information from anyone,
-including children. The game has no chat, no communication with other people, no ads, no external links and no real-money
-purchases inside the game. If you are a parent or guardian and have any question, please contact us.
+The store listing of Dirty Garage Chaos VR is open to players of mixed ages, including players aged 10 to 12. We do not
+knowingly collect personal information from anyone, including children: the only information the app receives about a
+player is the ownership answer and the age group described in section 2.1, and neither leaves the headset's memory. The
+game has no chat, no communication with other people, no ads, no external links and no real-money purchases inside the
+game. If you are a parent or guardian and have any question, please contact us.
 
 ## 6. How long data is kept
 
-- The ownership result exists only in the headset's memory while the game is running.
+- The ownership result and the age group exist only in the headset's memory while the game is running; they are gone
+  when the game closes.
 - The save file stays on your headset until you start a new game or uninstall the app.
 - We (Totos Games) do not keep any player data.
 
@@ -116,12 +125,15 @@ Gizlilikle ilgili tüm soru ve talepler için: **cemdemirtas57@gmail.com**
 
 ## 2. Uygulamanın işlediği veriler
 
-### 2.1 Meta Horizon sahiplik kontrolü
+### 2.1 Meta Horizon sahiplik kontrolü ve yaş grubu
 
-Oyun açılırken Meta Horizon platformuna (Meta Platform SDK) gözlükte oturum açmış Meta hesabının oyuna sahip olup olmadığı
-sorulur. Uygulama yalnızca evet/hayır yanıtı alır; yanıt hayırsa oyun kapanır. Uygulama kullanıcı kimliğinizi, adınızı,
-kullanıcı adınızı, profil fotoğrafınızı, e-posta adresinizi, yaş grubunuzu, arkadaş veya takipçi listenizi, avatarınızı,
-konumunuzu, sesinizi, kamera görüntülerini veya ödeme bilgilerinizi **istemez ve almaz**.
+Oyun açılırken Meta Horizon platformuna (Meta Platform SDK) iki şey sorulur: gözlükte oturum açmış Meta hesabının oyuna sahip
+olup olmadığı ve hesabın hangi yaş grubunda olduğu (çocuk 10–12, genç 13–17, yetişkin 18+ veya bilinmiyor). Uygulama
+yalnızca evet/hayır yanıtını ve yaş grubunu alır; sahiplik yanıtı hayırsa oyun kapanır. Yaş grubu, oyunun mağaza sayfası
+karma yaş grubuna açık olduğu ve Meta bu tür uygulamaların Meta Horizon yaş grubu API'sini kullanmasını şart koştuğu için
+sorulur. Uygulama kullanıcı kimliğinizi, adınızı, kullanıcı adınızı, profil fotoğrafınızı, e-posta adresinizi, doğum
+tarihinizi, arkadaş veya takipçi listenizi, avatarınızı, konumunuzu, sesinizi, kamera görüntülerini veya ödeme
+bilgilerinizi **istemez ve almaz**.
 
 ### 2.2 Gözlükte saklanan veriler
 
@@ -140,6 +152,10 @@ gönderebilir. Bu bilgiler adınızı veya Meta hesabınızı içermez ve bize u
 ## 3. Verilerin kullanımı
 
 - Sahiplik kontrolü yalnızca oyunun satın alan kişilerde çalışmasını sağlamak için kullanılır (Meta Horizon Store şartı).
+- Yaş grubu yalnızca Meta'nın 13 yaş altı oyunculara açık uygulamalar için koyduğu şartları karşılamak için kullanılır. Her
+  yaş grubu aynı oyunu oynar: oyunda sohbet, başka kişilerle iletişim, reklam, dış bağlantı ve oyun içi satın alma yoktur,
+  bu yüzden küçük oyuncular için kapatılması gereken bir şey yoktur. Yaş grubu saklanmaz, hiçbir yere gönderilmez ve başka
+  hiçbir amaçla kullanılmaz.
 - Kayıt dosyası yalnızca oyuna kaldığınız yerden devam edebilmeniz için kullanılır.
 
 Hiçbir veriyi reklam, profilleme, takip veya analitik için kullanmıyor, satmıyor ve kiralamıyoruz.
@@ -152,13 +168,14 @@ verilecek bir bilgi yoktur.
 
 ## 5. Çocuklar
 
-Dirty Garage Chaos VR gençler ve yetişkinler (13+) içindir. Çocuklar dahil hiç kimseden bilerek kişisel bilgi toplamıyoruz.
-Oyunda sohbet, başka kişilerle iletişim, reklam, dış bağlantı ve gerçek parayla oyun içi satın alma yoktur. Ebeveyn veya
+Dirty Garage Chaos VR'ın mağaza sayfası 10–12 yaş arası oyuncular dahil karma yaş grubuna açıktır. Çocuklar dahil hiç
+kimseden bilerek kişisel bilgi toplamıyoruz: uygulamanın bir oyuncu hakkında aldığı tek bilgi bölüm 2.1'de anlatılan
+sahiplik yanıtı ve yaş grubudur; ikisi de gözlüğün belleğinden çıkmaz. Oyunda sohbet, başka kişilerle iletişim, reklam, dış bağlantı ve gerçek parayla oyun içi satın alma yoktur. Ebeveyn veya
 vasiyseniz ve sorunuz varsa bize yazabilirsiniz.
 
 ## 6. Saklama süresi
 
-- Sahiplik sonucu yalnızca oyun açıkken gözlüğün belleğinde bulunur.
+- Sahiplik sonucu ve yaş grubu yalnızca oyun açıkken gözlüğün belleğinde bulunur; oyun kapanınca silinir.
 - Kayıt dosyası yeni oyun başlatana veya uygulamayı kaldırana kadar gözlüğünüzde kalır.
 - Totos Games hiçbir oyuncu verisi saklamaz.
 
